@@ -15,7 +15,7 @@ $(document).ready(function () {
                    callback: 'showStaggeredList(".habilidades ul")'
                }
                       ];
-            scrollFire(options);
+            Materialize.scrollFire(options);
            //Parallax
            $('.parallax').parallax();
            //Scroll
