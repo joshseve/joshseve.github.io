@@ -1,6 +1,5 @@
 .miPresentacion{
   background-color:  #FFFFFF;
-  padding-bottom: 5%;
 }
 
 body {
@@ -9,8 +8,8 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 2em;
+  text-align: center;
+  padding: 2em;
 }
 
 header,
@@ -20,11 +19,15 @@ footer {
 }
 
 header .logo {
-    margin-left: 20px
+  margin-left: 20px
 }
 
 .logoMenu {
- padding: 40px;
+  width: 100%;
+}
+
+.hamburguesa {
+  background-color: white;
 }
 
 /*.botoncillo{
@@ -32,10 +35,10 @@ header .logo {
   display: block;
 }*/
 
-.container {
+/*.container {
     position: relative;
     width: 50%;
-}
+}*/
 
 .image {
   opacity: 1;
@@ -116,7 +119,7 @@ li {
 }
 
 section {
-    padding: 4% 0 4% 0;
+    /*padding: 4% 0 4% 0;*/
     background-color: #FFFFFF;
 }
 
