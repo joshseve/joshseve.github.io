@@ -1,7 +1,3 @@
-.miPresentacion{
-  background-color:  #FFFFFF;
-}
-
 body {
   font-family: 'Comfortaa', cursive;
   background-color: #FFFFFF;
@@ -15,11 +11,21 @@ header {
 header,
 main,
 footer {
-    padding-left: 240px;
+  padding-left: 240px;
 }
 
 header .logo {
   margin-left: 20px
+}
+
+.miPresentacion{
+  background-color:  #FFFFFF;
+}
+
+.fotoMiPresentacion {
+  width: 80%;
+  height: 80%;
+  border-radius: 3%;
 }
 
 .logoMenu {
@@ -29,16 +35,6 @@ header .logo {
 .hamburguesa {
   background-color: white;
 }
-
-/*.botoncillo{
-  position: relative;
-  display: block;
-}*/
-
-/*.container {
-    position: relative;
-    width: 50%;
-}*/
 
 .image {
   opacity: 1;
@@ -75,68 +71,51 @@ header .logo {
 }
 
 h1 {
-    font-size: 1.5rem;
-    line-height: 25px
+  font-size: 1.5rem;
+  line-height: 25px
 }
 
 header .btn-floating {
-    position: relative;
-    margin: 0 auto;
-    display: block;
-    top: 58px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: 58px;
 }
 
 header nav {
-    box-shadow: none;
-    width: 100%;
+  box-shadow: none;
+  width: 100%;
 }
 
 header nav ul li a {
-    position: relative;
-    color: #fff;
-    letter-spacing: -1px;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 1.7rem;
-    margin: 0 25px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0 25px;
 }
 
 .button-collapse {
-    margin-left: 25px;
-    color: gray;
+  margin-left: 25px;
+  color: gray;
 }
 
 ul.side-nav.fixed a {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 ul.side-nav.fixed a:hover {
-    color: black;
+  color: black;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
-section {
-    /*padding: 4% 0 4% 0;*/
-    background-color: #FFFFFF;
-}
-
-#sobremi{
-background-color: #FFFFFF}
-
-#contacto{
-background-color: #FFFFFF}
 
 .delContacto{
-  background-color: #aeea00;
-}
-
-#portafolio,
-#habilidades,
-#contacto {
-  background-color: #FFFFFF;
+  background-color: #D8D8D8;
+  font-weight: bold;
 }
 
 section .col {
@@ -144,91 +123,83 @@ section .col {
 }
 
 section h4 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 section hr {
-    width: 40px;
-    margin-bottom: 45px;
-    border: 1px solid
+  width: 40px;
+  margin-bottom: 45px;
+  border: 1px solid;
 }
-
-
-/*Portafolio 2:*/
-/*.mdl-grid {
-    max-width: 600px;
-}
-.mdl-card__media {
-    margin: 0;
-}
-.mdl-card__media > img {
-    max-width: 100%;
-}
-.mdl-card__actions {
-    display: flex;
-    box-sizing:border-box;
-    align-items: center;
-}
-.mdl-card__actions > .mdl-button--icon {
-    margin-right: 3px;
-    margin-left: 3px;
-}*/
-
-
 
 .portafolio .portafolio-holder {
-    clear: both;
-    text-align: center;
+  clear: both;
+  text-align: center;
 }
 
-.portafolio img, .habilidades li {
-    -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
-    filter: "alpha(opacity=(${iefactor}))";
-    -moz-opacity: 0;
-    -khtml-opacity: 0;
-    opacity: 0;
+.portafolio img, {
+  -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
+  filter: "alpha(opacity=(${iefactor}))";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
 }
 
 .portafolio img {
-    width: 33%;
-    display: inline-block;
-    float: left;
-}
-
-.habilidades i {
-    color: #ee6e73;
-    font-size: 7rem;
-    display: block;
+  width: 33%;
+  display: inline-block;
+  float: left;
 }
 
 footer.page-footer {
-    margin-top: 0px;
-    padding-top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
-/*** RESPONSIVO ***/
+/*contacto*/
+#linkContacto {
+color: green;
+}
 
+/* Hover 12 */
+.hover12 img+span {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover12 :hover img {
+  opacity: .5;
+}
+
+#habs {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* RESPONSIVO */
 @media only screen and (max-width: 992px) {
-    header ul.side-nav li a {
-        font-size: 1.7rem
-    }
-    header,
-    main,
-    footer {
-        padding-left: 0;
-    }
+  header ul.side-nav li a {
+    font-size: 1.7rem
+  }
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .portafolio img {
-        width: 50%;
-    }
+  .portafolio img {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 467px) {
-    .portafolio img {
-        width: 100%;
-    }
+  .portafolio img {
+    width: 100%;
+  }
 }
