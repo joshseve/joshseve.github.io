@@ -134,6 +134,13 @@ section hr {
   border: 1px solid;
 }
 
+
+/*portafolio*/
+#fb-passeante {
+  width: 250px;
+  height: 200px;
+}
+
 .portafolio .portafolio-holder {
   clear: both;
   text-align: center;
