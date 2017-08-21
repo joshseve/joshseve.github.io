@@ -18,6 +18,15 @@ header .logo {
   margin-left: 20px
 }
 
+.logoMenu {
+  width: 100%;
+}
+
+.hamburguesa {
+  background-color: white;
+}
+
+
 .miPresentacion{
   background-color:  #FFFFFF;
 }
@@ -28,13 +37,6 @@ header .logo {
   border-radius: 3%;
 }
 
-.logoMenu {
-  width: 100%;
-}
-
-.hamburguesa {
-  background-color: white;
-}
 
 .image {
   opacity: 1;
@@ -113,11 +115,6 @@ li {
   list-style-type: none;
 }
 
-.delContacto{
-  background-color: #D8D8D8;
-  font-weight: bold;
-}
-
 section .col {
     margin-bottom: 24px;
 }
@@ -135,7 +132,7 @@ section hr {
 }
 
 
-/*portafolio*/
+/* Portafolio */
 #fb-passeante {
   width: 250px;
   height: 200px;
@@ -160,17 +157,8 @@ section hr {
   float: left;
 }
 
-footer.page-footer {
-  margin-top: 0px;
-  padding-top: 0px;
-}
 
-/*contacto*/
-#linkContacto {
-color: green;
-}
-
-/* Hover 12 */
+/* Habilidades */
 .hover12 img+span {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
@@ -184,6 +172,23 @@ color: green;
 #habs {
   text-align: center;
   font-weight: bold;
+}
+
+
+/* Contacto */
+#linkContacto {
+color: green;
+}
+
+.delContacto{
+  background-color: #D8D8D8;
+  font-weight: bold;
+}
+
+
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 
